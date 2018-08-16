@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="729.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tallercg.FXMLDocumentController">
+   <children>
+      <Canvas fx:id="canvas" height="510.0" onMouseMoved="#Label" width="647.0" />
+      <Button layoutX="218.0" layoutY="544.0" mnemonicParsing="false" onAction="#GenerarCuadrado" prefHeight="26.0" prefWidth="106.0" text="mostrar figura" />
+      <Button layoutX="218.0" layoutY="586.0" mnemonicParsing="false" onAction="#LimpiarCanvas" prefHeight="26.0" prefWidth="106.0" text="Ocultar figura" />
+      <Button layoutX="218.0" layoutY="626.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="106.0" text="Mover figura" />
+      <ColorPicker fx:id="colorclicker" layoutX="467.0" layoutY="538.0" onAction="#Ccolor" prefHeight="25.0" prefWidth="95.0" />
+      <Label fx:id="Label" layoutX="467.0" layoutY="611.0" prefHeight="17.0" prefWidth="106.0" />
+   </children>
+</AnchorPane>
